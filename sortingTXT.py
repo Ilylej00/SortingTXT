@@ -1,6 +1,6 @@
-# Read the file, put each line into an array
 from genericpath import exists
 
+# Read the file, put each line into an array
 def readFileToArray(filename):
     # first version
     lines = []
