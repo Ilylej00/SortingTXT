@@ -14,7 +14,7 @@ fileToSort = input('File Name: ')
 
 # check if properly formatted and the file exists
 while not fileToSort.lower().endswith('.txt') or not exists(fileToSort):
-    fileToSort = input('File Name: ').lower()
+    fileToSort = input('File Name: ')
 
 # sort the file, line based
 elements = readFileToArray(fileToSort)
