@@ -1,10 +1,10 @@
 # Read the file, put each line into an array
 from genericpath import exists
 
-def readFileToArray( filename ):
+def readFileToArray(filename):
     # first version
     lines = []
-    for line in open( filename ):
+    for line in open(filename):
         lines.append(line)
     return lines
 
